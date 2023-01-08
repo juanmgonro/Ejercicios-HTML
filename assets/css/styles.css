@@ -1,0 +1,55 @@
+/*Comentarios*/
+/*Selector universal*/
+*{
+    font-family: 'Newsreader', serif;
+    background-color: #FDEDEC;
+}
+/*Selector de tipo*/
+h1 {
+    color:rgba(137, 43, 226, 0.678);
+    text-align:center;
+    font-family: 'Playfair Display', serif;
+    
+}
+h2{
+    color:brown;
+    font-size:large;
+}
+
+p{
+    text-align:justify;   
+    color: black; 
+}
+li{
+    color:#D35400;
+}
+
+/*Selectores de clase*/
+/*Selecciona elementos de una clase especifica asignada*/
+
+.listas{
+    color: rgb(133, 24, 59);
+}
+.imagenes
+{
+    width:150px;
+    height:200px;
+    display:block;
+    margin:auto;
+}
+.descripcion-imagenes{
+    color: rgb(134, 98, 156);
+    text-align: center; 
+}
+/*Selectores de id*/
+/*Permite selesccionar un lemento con un id especifico
+No se comparte con ningun elemento*/
+#temperatura{
+    color:red;
+}
+table{
+    border: 2px solid black;
+}
+th,td{
+    border:1px solid grey;
+}
